@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+.nav {
+    position: absolute;
+    height: 30px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+.menu :hover{
+    color: rgb(255, 0, 0);
+}
+
+.menu__image--outlinemenu {
+width: 30px;
+height: 30px;
+}
+
+.menu__text {
+    color: #fff;
+ 
+}
+.menu__image--outlineperson{
+    width: 30px;
+    height: 30px;
+}
+
+.banner__image {
+    height: 550px;
+    background-image: url("https://i.pinimg.com/originals/bb/44/ff/bb44ffb5fa128b126c847210b251dbd9.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20rem 5rem;
+    box-sizing: border-box;
+
+}
+.banner__serie--name {
+    font-size: 4rem;
+    color: #fff;
+}
+.banner__serie--contain{
+    color: #fff;
+}
+.banner__serie--rating {
+    font-size: .7rem;
+}
+.banner__playandsave{
+    width: 30px;
+    flex-direction: center;
+    justify-content: center;
+   
+}
+.banner__playandsave--background {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    
+}
+
+.banner__playandsave--text {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 85px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.carrusel {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 2rem;
+box-sizing: border-box;
+gap: 1.5rem;
+overflow-x: auto;
+
+
+}
+
+.carrusel__sizeimage {
+    width: 15rem;
+    height: 23rem;
+    border-radius: 20px;
+}
+
+.carrusel__font {
+    font-size: 30px;
+    z-index: 1;
+    color: #fff;
+    padding: 2rem;
+box-sizing: border-box;
+}
+
+.rating{
+    width: 20px;
+    height: 20px;
+}
+/* Estilos CSS para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    
+   
+  }
+  
+  .modal-content {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .close {
+    
+    padding: .5rem;
+    cursor: pointer;
+    background-color: red;
+    width: 2px;
+    height: 2px;
+  }
+  .close:hover{
+    background-color: rgb(254, 87, 87);
+  }
